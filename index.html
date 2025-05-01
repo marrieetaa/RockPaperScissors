@@ -21,6 +21,15 @@
    }
    console.log(computerMove);
 
+   let result;
+   if(computerMove === 'Rock'){
+      result = 'Tie';
+   }else if(computerMove === 'Paper'){
+      result = 'Lose';
+   }else if(computerMove === 'Scissors'){
+      result = 'Win';
+   }
+   console.log(result);
   ">Rock</button>
 
   <button>Paper</button>
